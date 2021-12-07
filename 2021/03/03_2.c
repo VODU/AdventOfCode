@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <stdint.h>
 
 // #define BITS 5      // cols
 // #define COUNT 12    // rows

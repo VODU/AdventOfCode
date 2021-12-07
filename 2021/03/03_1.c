@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <stdint.h>
 
 static uint16_t calc_gamma(uint16_t *count, int cols, int rows);
 static uint16_t gamma_to_epsilon(uint16_t gamma, int cols);

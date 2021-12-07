@@ -3,6 +3,7 @@
 #include <string.h>
 #include <assert.h>
 #include <limits.h>
+#include <stdint.h>
 
 #define INPUT_PATH "input.txt"
 

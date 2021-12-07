@@ -56,7 +56,7 @@ int main()
     char numbers[128];
     fgets(buffer, sizeof(buffer), file);
     memcpy(numbers, buffer, strlen(buffer)+1);
-    // printf("nums: %s", numbers);
+    printf("nums: %s \n", numbers);
 
     // read in all boards
     Board *boards = calloc(NBOARDS, sizeof(Board));

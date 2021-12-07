@@ -123,7 +123,7 @@ int main(void)
 
     // print_diagram(diagram);
     size_t s = score(diagram);
-    printf("%zu", s);
+    printf("%zu \n", s);
     // assert(s == 5576); //part1
     assert(s == 18144); //part2
 
